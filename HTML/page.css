@@ -1,0 +1,17 @@
+
+#boxSeemore {
+  width: 100%;
+  height: 200px;  
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  color: white;
+  background-color: #0da6f2;
+  width: 5%;
+  height: 50px;
+  text-align: center;
+  
+  
+}

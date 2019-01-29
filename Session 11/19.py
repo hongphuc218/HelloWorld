@@ -20,4 +20,6 @@ for key,value in computer.items():
   for key1,value1 in price.items():
     if key == key1:
       total[key]=value*value1
-print(total)    
+print(total)
+for i in total:
+    print(i)    
