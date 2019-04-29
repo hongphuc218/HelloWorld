@@ -9,7 +9,7 @@ function run(content){
     var listChampion = content.champions;
     for (var i = 0; i < listChampion.length; i ++) {
         var HTML = `
-            <a href="./Champ-info.html" target="_blank">
+            <a href="./Champ-info.html">
             <div class="eachChampion">
                 <p class="nameChampion">${listChampion[i].name}</p>
                 <img class="imgAvatar" src=${listChampion[i].image.uri} />
